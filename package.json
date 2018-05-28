@@ -5,7 +5,11 @@
     "start": "nodemon --exec ts-node src/index.ts",
     "test": "jest --watch"
   },
-  "keywords": ["nesting", "packing", "2d"],
+  "keywords": [
+    "nesting",
+    "packing",
+    "2d"
+  ],
   "author": "John Rees <john@bitsushi.com>",
   "license": "ISC",
   "devDependencies": {
@@ -28,7 +32,14 @@
       "^.+\\.tsx?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2"
