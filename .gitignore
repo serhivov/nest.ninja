@@ -1,2 +1,5 @@
 /node_modules
+/assets
 yarn-error.log
+/.cache
+/dist
